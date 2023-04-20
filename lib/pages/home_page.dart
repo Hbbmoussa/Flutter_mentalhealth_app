@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
 import 'package:flutter/material.dart';
+import 'package:mentalhealtapp/pages/utils/emoticon.dart';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
@@ -102,6 +103,66 @@ class _MyHomePageState extends State<MyHomePage> {
                     Icons.more_horiz,
                     color: Colors.white,
                   )
+                ],
+              ),
+              SizedBox(
+                height: 25,
+              ),
+              //4 diffents faces
+              Row(
+                children: [
+                  //Badly
+                  Column(children: [
+                    EmoticonFace(
+                      emoticonFace: '😂',
+                    ),
+                    SizedBox(
+                      height: 8,
+                    ),
+                    Text(
+                      "bad",
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ]),
+                  //Badly
+                  Column(children: [
+                    EmoticonFace(
+                      emoticonFace: '😂',
+                    ),
+                    SizedBox(
+                      height: 8,
+                    ),
+                    Text(
+                      "Nice",
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ]),
+                  //Badly
+                  Column(children: [
+                    EmoticonFace(
+                      emoticonFace: '😂',
+                    ),
+                    SizedBox(
+                      height: 8,
+                    ),
+                    Text(
+                      "Fine",
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ]),
+                  //Badly
+                  Column(children: [
+                    EmoticonFace(
+                      emoticonFace: '😂',
+                    ),
+                    SizedBox(
+                      height: 8,
+                    ),
+                    Text(
+                      "Well",
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ]),
                 ],
               )
             ],
