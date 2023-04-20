@@ -17,30 +17,35 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       backgroundColor: Colors.blue[700],
       body: SafeArea(
-        child: Column(
-          children: [
-            Row(
-              children: [
-                //Hi habibou !
-                Text(
-                  "Hi Habibou",
-                  style: TextStyle(
-                      fontSize: 24,
-                      fontWeight: FontWeight.bold,
-                      color: Colors.white),
-                ),
-
-                //Notification
-                Container(
-                  decoration: BoxDecoration(color: Colors.blue[600]),
-                  child: Icon(
-                    Icons.notifications,
-                    color: Colors.white,
+        child: Padding(
+          padding: EdgeInsets.all(25),
+          child: Column(
+            children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  //Hi habibou !
+                  Text(
+                    "Hi Habibou",
+                    style: TextStyle(
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white),
                   ),
-                )
-              ],
-            )
-          ],
+
+                  //Notification
+                  Container(
+                    decoration: BoxDecoration(color: Colors.blue[600]),
+                    padding: EdgeInsets.all(14),
+                    child: Icon(
+                      Icons.notifications,
+                      color: Colors.white,
+                    ),
+                  )
+                ],
+              )
+            ],
+          ),
         ),
       ),
     );
