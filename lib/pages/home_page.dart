@@ -21,6 +21,7 @@ class _MyHomePageState extends State<MyHomePage> {
           padding: EdgeInsets.all(25),
           child: Column(
             children: [
+              //Greting Row
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
@@ -57,6 +58,31 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
                   )
                 ],
+              ),
+              SizedBox(
+                height: 25,
+              ),
+              //Search bar
+              Container(
+                decoration: BoxDecoration(
+                    color: Colors.blue[600],
+                    borderRadius: BorderRadius.circular(12)),
+                padding: EdgeInsets.all(14),
+                child: Row(
+                  children: [
+                    Icon(
+                      Icons.search,
+                      color: Colors.white,
+                    ),
+                    SizedBox(
+                      width: 5,
+                    ),
+                    Text(
+                      "search",
+                      style: TextStyle(color: Colors.white),
+                    )
+                  ],
+                ),
               )
             ],
           ),
