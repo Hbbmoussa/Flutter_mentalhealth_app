@@ -35,7 +35,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
                   //Notification
                   Container(
-                    decoration: BoxDecoration(color: Colors.blue[600]),
+                    decoration: BoxDecoration(
+                        color: Colors.blue[600],
+                        borderRadius: BorderRadius.circular(12)),
                     padding: EdgeInsets.all(14),
                     child: Icon(
                       Icons.notifications,
