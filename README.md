@@ -6,6 +6,6 @@ Time 15 minites
 
 Result:
 
-- [First Screen](scree1.png)
+![First Screen](scree1.png)
 
 More comming soon
