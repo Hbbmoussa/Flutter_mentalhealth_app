@@ -83,6 +83,26 @@ class _MyHomePageState extends State<MyHomePage> {
                     )
                   ],
                 ),
+              ),
+              SizedBox(
+                height: 25,
+              ),
+              //How do you feel
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  Text(
+                    "How do you feel",
+                    style: TextStyle(
+                        color: Colors.white,
+                        fontSize: 24,
+                        fontWeight: FontWeight.bold),
+                  ),
+                  Icon(
+                    Icons.more_horiz,
+                    color: Colors.white,
+                  )
+                ],
               )
             ],
           ),
