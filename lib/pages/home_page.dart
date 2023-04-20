@@ -35,6 +35,9 @@ class _MyHomePageState extends State<MyHomePage> {
                             fontWeight: FontWeight.bold,
                             color: Colors.white),
                       ),
+                      SizedBox(
+                        height: 8,
+                      ),
                       Text(
                         "23 Jan, 2022",
                         style: TextStyle(color: Colors.blue[200]),
