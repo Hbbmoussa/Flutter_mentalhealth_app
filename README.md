@@ -6,6 +6,6 @@ Time 15 minites
 
 Result:
 
-![First Screen!](assets/scree1.png)
+![First Screen!](assets/scree1.png= 250x250)
 
 More comming soon
